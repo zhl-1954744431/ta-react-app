@@ -4,10 +4,10 @@ function Header() {
     return (
         <header id="header">
             <nav className="menu">
-                <a href="">导航</a>
+                <span>导航</span>
             </nav>
             <h1 className="logo">miaov.com</h1>
-            <a className="user" href=""></a>
+            <span className="user"></span>
         </header>
     );
 }
